@@ -2,13 +2,13 @@ server:
   port: 8000
 spring:
   application:
-    name: Agenda Digital Escolar
+    name: Insights Management
   h2:
     console:
       enabled: true
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:agenda-digital-escolar
+    url: jdbc:h2:mem:insights-management
     username: sa
     password:
   jpa:

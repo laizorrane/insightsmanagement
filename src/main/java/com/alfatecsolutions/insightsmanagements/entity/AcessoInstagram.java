@@ -1,4 +1,4 @@
-package com.alfatecsolutions.virtualstore.entity;
+package com.alfatecsolutions.insightsmanagements.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -7,7 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 
-import java.util.Set;
 import java.util.UUID;
 
 @Data
@@ -15,22 +14,19 @@ import java.util.UUID;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-public class Usuario {
+public class AcessoInstagram {
 
     @Id
     private String guid;
     private String nome;
-    private String cpf;
+    private String username;
+    private String email;
     private String senha;
-    private String perfil;
+    private String token;
 
-    @OneToMany
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn
-    private Set<Endereco> enderecos;
-
-    @OneToMany
-    @JoinColumn
-    private Set<Contato> contatos;
+    private Usuario usuario;
 
 
     @PrePersist

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.alfatecsolutions</groupId>
-	<artifactId>agendadigitalescolar</artifactId>
+	<artifactId>insightsmanagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Agenda Digital Escolar</name>
-	<description>Agenda digital que conecta escola com os pais.</description>
+	<name>Insights Management</name>
+	<description>Gerenciamento de contas do Instagram.</description>
 	<properties>
 		<java.version>22</java.version>
 	</properties>
@@ -21,6 +21,10 @@
 			<groupId>org.modelmapper</groupId>
 			<artifactId>modelmapper</artifactId>
 			<version>3.2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

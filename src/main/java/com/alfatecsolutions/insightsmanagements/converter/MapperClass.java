@@ -1,4 +1,4 @@
-package com.alfatecsolutions.virtualstore.converter;
+package com.alfatecsolutions.insightsmanagements.converter;
 
 import java.util.ArrayList;
 import java.util.HashSet;

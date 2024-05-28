@@ -1,10 +1,10 @@
-package com.alfatecsolutions.agendadigitalescolar;
+package com.alfatecsolutions.insightsmanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AgendaDigitalEscolarApplicationTests {
+class InsightsManagementTests {
 
 	@Test
 	void contextLoads() {
